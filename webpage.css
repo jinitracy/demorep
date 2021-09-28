@@ -1,0 +1,250 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #e6a777;
+}
+.body1{
+  background-color: #74ed92;
+}
+
+.com{
+  margin-left: 0;
+}
+
+
+header{
+	background-image: url('shopping.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height:100%;
+	right: 0;
+	bottom: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: rgba(10,10,10,0.3);
+  padding-top: 40px;
+}
+
+nav{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 60px 0 60px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav li span{
+	padding-left: 5px;
+}
+
+li a{
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+.cart ion-icon{
+	vertical-align: bottom;
+	font-size: 20px;
+	padding-right: 5px;
+}
+.cart a{
+	background-color: royalblue;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.container
+
+{
+	display:inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	padding-bottom: 100px;
+}
+
+.image{
+
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+
+
+.add-cart {
+	position: absolute;
+	width: 100%;
+	background-color: darkgrey;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	cursor: pointer;
+	text-align: center;
+}
+
+.image:hover  .cart1{
+	bottom: 66px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+
+
+}
+.image:hover  .cart2{
+	bottom: 66px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+.image:hover  .cart3{
+	bottom: 66px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+.image:hover  .cart4{
+	bottom: 66px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+.image:hover  .cart5{
+	bottom: 66px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+.image:hover  .cart6{
+	bottom: 65px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+/* ------------------------CART PAGE ------------------*/
+.products-container{
+	max-width: 650px;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.products-container ion-icon{
+	font-size: 30px;
+	color: green;
+	cursor: pointer;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.product-header{
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 4px solid lightgrey;
+	margin: 0  100px;
+}
+
+.product-title{
+	width: 30%;
+}
+
+.price{
+	width: 15%;
+	border-bottom: 1px solid lightgrey;
+	display: flex;
+    align-items: center;
+
+
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+	display: flex;
+	align-items: center;
+}
+
+.total{
+	width: 10%;
+    border-bottom: 1px solid lightgrey;
+	display: flex;
+	align-items: center;
+}
+
+.product{
+	width: 45%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.product ion-icon{
+	cursor: pointer;
+}
+.but{
+  margin-left: 70px;
+}
+.products {
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.div1{
+  text-align: center;
+  padding-left: 10px;
+  margin-left: 150px;
+}
+.products img{
+	width: 75px;
+}
+
+.baskettotalcontainer{
+	 display: flex;
+	 justify-content: flex-end;
+	 width: 100%;
+	 padding: 10px 0;
+
+}
+
+.baskettotaltitle{
+	width: 30%;
+}
+
+.baskettotal{
+	width: 10%;
+}
